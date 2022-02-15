@@ -13,13 +13,13 @@ enum AccountStatus {
   case Disabled;
 }
 
-enum Decision {
+enum BooleanPlus {
   case Yes;
   case No;
   case Maybe;
 }
 
-Chess {
+enum Chess {
   case Pawn;
   case Knight;
   case Bishop;

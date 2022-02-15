@@ -30,7 +30,7 @@ enum Status implements ColorCode {
 Static methods are primarily used an alternative constructor.
 
 ```php
-enum Status implements  {
+enum Generation {
   case GENZ;
   case MILLENNIALS,
   case GENX;
