@@ -1,6 +1,6 @@
 # Enums in PHP
 
-An enum (enumerated type or enumeration) is a data type containing a fixed set of named values.Each element defined in the enum behaves as a constant. A variable created from an enum type may be set to any of the values. Enums were added to PHP in version 8.1.
+An enum (enumerated type or enumeration) is a data type containing a fixed set of named values. Each element defined in the enum behaves as a constant. A variable created from an enum type may be set to any of the values. Enums were added to PHP in version 8.1.
 
 * [Why should we learn a new data type?](./docs/background.md)
 * [Getting started with enums](./docs/getting-started.md)

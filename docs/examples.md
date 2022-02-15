@@ -19,6 +19,13 @@ enum BooleanPlus {
   case Maybe;
 }
 
+enum Everybody {
+  case YOU_GUYS;
+  case YALL;
+  case YOUSE;
+  case YINZ;
+}
+
 enum Chess {
   case Pawn;
   case Knight;

@@ -32,19 +32,21 @@ Static methods are primarily used an alternative constructor.
 ```php
 enum Generation {
   case GENZ;
-  case MILLENNIALS,
+  case MILLENNIALS;
   case GENX;
   case BOOMER;
 
   public static function fromYear(int $year) {
     return match(true) {
       $year >= 1997 => static::GENZ,
-      $year >= 1981 => static::MILLENNIALS,
+      $year >= 1981 => static::MILLENNIAL,
       $year >= 1965 => static::GENX,
       $year >= 1955 => static::BOOMER,
     };
   }
 }
+
+Generation::fromYear(1984);
 ```
 
 ## Differences between enums and classes
