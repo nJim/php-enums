@@ -12,9 +12,9 @@ A teammate working on this project will not inherently know the acceptable types
 
 ```php
 // Are any of these correct?
-function promote('Queen');
-function promote('rook');
-function promote(2);
+promote('Queen');
+promote('rook');
+promote(2);
 ```
 
 One way to improve this code is by adding type hinting to the input. Scalar types have been a part of PHP since version 7. Specifying that the input must be a string will help developers better understand what is expected for this function and will provide better errors if the wrong type of data is passed.
@@ -29,11 +29,11 @@ This is good but not great. There is still a lot of room for mistakes. In a ches
 
 ```php
 // Just because they are strings doesn't mean they are correct.
-function promote('Queen');
-function promote('queen');
-function promote('Castle');
-function promote('Horsey');
-function promote('Megatron');
+promote('Queen');
+promote('queen');
+promote('Castle');
+promote('Horsey');
+promote('Megatron');
 ```
 
 Before enums we may have used a series of variables, a helper class, or an array to organize these related constants. This leads to verbose solutions.
